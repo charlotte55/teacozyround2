@@ -31,3 +31,89 @@ nav span{
   text-decoration: underline;
   align-items: right;
 }
+
+/*main content*/
+.content{
+  top: 70px;
+  position: relative;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  color: seashell;
+}
+
+/*mission section*/
+.mission{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+}
+
+.mission-heading{
+  align-items: center;
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+}
+
+/*tea of the month section */
+.teas{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:1000px;
+}
+
+.highlight img{
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+/*locations section*/
+.locations-section{
+  margin: 0 auto;
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
+}
+
+.locations-section h2{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.location{
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.address{
+  justify-content: space-between;
+  background-color: black;
+  width: 300px;
+  margin: 0 20px;
+  display: inline-block;
+  opacity: 1;
+}
+
+.location span{
+  padding-bottom: 30px;
+}
+
+/*footer section*/
+.footer{
+  display: flex;
+}
+
+.contact-info{
+  display: flex;
+  justify-content: center
+  flex-direction: column;
+}
+
+#copyright{
+  text-align: right;
+  align-items: flex-start;
+}
