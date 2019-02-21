@@ -53,7 +53,7 @@ nav span{
 }
 
 .mission-heading{
-  display: flex;
+  display: block;
   background-color: black;
   width: inherit;
   align-items: center;
@@ -106,25 +106,25 @@ nav span{
   opacity: 1;
 }
 
-.location span{
-  padding-bottom: 30px;
+.location .address p{
+  padding-bottom: 20px;
 }
 
 /*footer section*/
 .contact {
-  margin: 50px auto 0 auto;
   height: 200px;
   }
 
 .contact h2 {
   margin: 0;
   padding-bottom: 30px;
+  padding-top: 10px;
   }
 
 .contact h5{
   margin-top: 0;
   padding-top: 0px;
-  }
+    }
 
 #copyright{
   display: flex;
